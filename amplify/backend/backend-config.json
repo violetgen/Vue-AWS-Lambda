@@ -1,0 +1,16 @@
+{
+	"auth": {
+		"cognito5d1d00f1": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"function": {
+		"lambdaproject3219183c": {
+			"service": "Lambda",
+			"providerPlugin": "awscloudformation",
+			"build": true,
+			"dependsOn": []
+		}
+	}
+}

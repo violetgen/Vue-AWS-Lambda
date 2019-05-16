@@ -1,0 +1,19 @@
+{
+    "lambdaenv": {
+        "awscloudformation": {
+            "AuthRoleName": "lambda-project-lambdaenv-20190516120359-authRole",
+            "UnauthRoleArn": "arn:aws:iam::167552751812:role/lambda-project-lambdaenv-20190516120359-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::167552751812:role/lambda-project-lambdaenv-20190516120359-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "lambda-project-lambdaenv-20190516120359-deployment",
+            "UnauthRoleName": "lambda-project-lambdaenv-20190516120359-unauthRole",
+            "StackName": "lambda-project-lambdaenv-20190516120359",
+            "StackId": "arn:aws:cloudformation:us-east-1:167552751812:stack/lambda-project-lambdaenv-20190516120359/4f2a6b70-77ca-11e9-96fd-0a9be5775b42"
+        },
+        "categories": {
+            "auth": {
+                "cognito5d1d00f1": {}
+            }
+        }
+    }
+}
