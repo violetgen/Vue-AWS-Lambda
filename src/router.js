@@ -3,7 +3,7 @@ import Router from 'vue-router';
 import Home from './views/Home.vue';
 // import About from './views/About.vue';
 import About from './views/About.vue'
-// import SignUp from './components/SignUp.vue'
+import SignUp from './components/SignUp.vue'
 
 Vue.use(Router);
 
@@ -25,11 +25,11 @@ const router = new Router({
       meta: { requiresAuth: true}
       // component: () => import('./views/About.vue')
     },
-    // {
-    //   path: 'signUp',
-    //   name: 'signUp',
-    //   component: SignUp
-    // }
+    {
+      path: '/signup',
+      name: 'signUp',
+      component: SignUp
+    }
   ]
 });
 
